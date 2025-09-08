@@ -36,3 +36,7 @@ Kode:
 <img width="681" height="224" alt="{A656FA9D-53EC-4CD8-8B83-2BCAF08A20E4}" src="https://github.com/user-attachments/assets/bbb987d3-0229-4339-a63f-da807c693dd0" />
 
 ## 4. Proses menampilkan daftar buku menggunakan perulangan for yang membaca semua elemen di dalam ArrayList.
+Kode:
+
+<img width="446" height="199" alt="{380B7171-2AAC-46A3-907B-05BE9CBF8515}" src="https://github.com/user-attachments/assets/56ae08b4-0072-4ce6-adc8-649714be7e40" />
+
