@@ -8,6 +8,7 @@ NIM : 2409116029 Kelas : A
 # Deskripsi singkat
 Program ini adalah implementasi sederhana dari sistem CRUD (Create, Read, Update, Delete) menggunakan bahasa pemrograman Java.
 Tema yang digunakan adalah Manajemen Perpustakaan Mini (Buku), di mana pengguna dapat menambahkan, melihat, memperbarui, dan menghapus data buku.
+
 Program dibuat dalam satu class (Main.java), menggunakan ArrayList untuk menyimpan data buku, serta menerapkan percabangan (switch-case) dan perulangan (while dan for) agar program berjalan interaktif hingga pengguna hanya bisa memilih keluar jika ingin keluar dari program.
 
 # Alur program
