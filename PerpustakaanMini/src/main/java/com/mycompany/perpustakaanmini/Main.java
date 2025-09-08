@@ -29,7 +29,7 @@ public class Main {
             System.out.println("===========================================");
             System.out.print("Pilih menu: ");
             int pilihan = input.nextInt();
-            input.nextLine(); // buffer
+            input.nextLine();
 
             switch (pilihan) {
                 case 1:
@@ -68,6 +68,12 @@ public class Main {
                     if (judulBuku.isEmpty()) {
                         System.out.println("Belum ada buku yang tersimpan.");
                     } else {
+                        for (int i = 0; i < judulBuku.size(); i++) {
+                            System.out.println((i + 1) + ". " + judulBuku.get(i) 
+                                + " | " + penulisBuku.get(i) 
+                                + " | " + tahunTerbit.get(i));
+                        }
+                        
                         System.out.print("Masukkan nomor buku yang ingin diupdate: ");
                         int idxUpdate = input.nextInt();
                         input.nextLine();
@@ -97,6 +103,12 @@ public class Main {
                     if (judulBuku.isEmpty()) {
                         System.out.println("Belum ada buku yang tersimpan.");
                     } else {
+                        for (int i = 0; i < judulBuku.size(); i++) {
+                            System.out.println((i + 1) + ". " + judulBuku.get(i) 
+                                + " | " + penulisBuku.get(i) 
+                                + " | " + tahunTerbit.get(i));
+                        }
+                        
                         System.out.print("Masukkan nomor buku yang ingin dihapus: ");
                         int idxDelete = input.nextInt();
                         input.nextLine();
