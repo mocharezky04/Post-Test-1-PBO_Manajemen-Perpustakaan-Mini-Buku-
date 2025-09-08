@@ -73,7 +73,7 @@ public class Main {
                         input.nextLine();
 
                         if (idxUpdate <= 0 || idxUpdate > judulBuku.size()) {
-                            System.out.println("Nomor buku ada");
+                            System.out.println("Nomor buku tidak ada");
                         } else {
                             System.out.print("Masukkan judul baru: ");
                             String judulBaru = input.nextLine();
