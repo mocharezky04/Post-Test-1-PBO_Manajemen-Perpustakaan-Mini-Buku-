@@ -125,7 +125,7 @@ public class Main {
                     break;
 
                 case 5:
-                    // Keluar
+                    // Exit
                     System.out.println("Terima kasih telah menggunakan program perpustakaan mini");
                     input.close();
                     return;
